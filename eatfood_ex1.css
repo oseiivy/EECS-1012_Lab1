@@ -1,0 +1,29 @@
+div.content{
+    border: 5px solid green;
+    position:absolute;
+}
+
+
+h2.goodeats{
+    border: 5px solid orange; 
+}
+
+section.journalentry{
+    border: 5px solid blue;
+}
+
+span {
+    border: 5px solid purple;
+}
+
+p {
+    border: 1.5px solid black;
+}
+
+div.footer{
+    border: 5px solid yellow;
+}
+
+div.header{
+    border: 5px solid red;
+}

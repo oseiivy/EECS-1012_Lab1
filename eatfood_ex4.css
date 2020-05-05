@@ -1,0 +1,38 @@
+
+
+
+section.journalentry{
+    background-color: rgb(196,226,255);
+    padding: 5px;
+    border: 5px solid blue;
+    margin-top: 10px;
+}
+
+span {
+    background-color: white;
+    
+}
+
+p {
+    border: 1.5px solid black;
+}
+
+div.footer{
+    border: 5px solid yellow;
+}
+
+div.header{
+    background-color: rgb(168,213,255);
+}
+div.content{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+div#white{
+    background-color: white;
+}
+
+#img{
+    float:right;
+}

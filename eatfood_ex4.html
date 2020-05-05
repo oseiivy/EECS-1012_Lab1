@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 2.
+  Author: MSB
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 2 - Eating Journal </title>
+  <link rel="stylesheet" type="text/css" href="eatfood_ex1.css"/>
+  <style type="text/css">
+  body{
+    background-image: url("background.gif");
+    }
+    div.content{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: cursive;
+        border: 5px solid white;
+    }
+    div#transparent{
+        background: white;
+    }
+    section[class*="journalentry"]{
+        background: rgb(196,226,255);
+        padding: 5px;
+        margin-top: 10px;
+        overflow: hidden;
+        border: 5px solid rgb(168,218,255);
+    }
+
+    div#right-align{
+        text-align: right;
+    }
+
+    /*remove border*/
+    p {
+        border: none;
+    }
+
+    /* remove borders */
+    div.header{
+        border: none;
+        background-color: rgb(168,213,255);
+    }
+
+    h2.goodeats{
+        border: none; 
+        text-align: right;
+    }
+    img{
+        float: right;
+    }
+
+    span{
+        border: none;
+        border-bottom: 2px dashed black;
+    }
+    
+    div.footer{
+        border: none;
+        text-align: center;
+    }
+    </style>   
+</head>
+<body>
+<div class="content" id="transparent">
+<div class="header" id="right-align">
+    <h1> Eating Journal </h1>
+    <h2 class="goodeats"> Good things to eat and where to find them </h2>
+</div>
+<section class="journalentry">
+    <h2> <span>09/06/2017</span>: Dosa </h2>
+    <p>
+    Dosas are a favorite in India.   They are made from a chickpea and rice batter that is fried on a griddle.
+    In India these are very cheap . . unfortunately, they will cost you in Toronto.
+    </p>
+    <p>
+    <img src="images/dosa.jpg" alt="The Dosa">
+    </p>
+    <p>
+    If you like Indian food, check out <a target="_blank" href="http://http://karaikudi.ca/order-online/">Karaikudi</a> in Scarborough.
+    </p>
+</section>
+
+<section class="journalentry">
+    <h2> <span> 08/24/2017</span>: Pide </h2>
+    <p>
+        If you haven't tried <em> Pide </em>, also known as Turkish Pizza, your
+        life is not complete.
+    </p>
+        <p>
+        <img src="images/pide.jpg" alt="Pide - turkish pizza">
+    </p>
+        <p>
+        My current favorite Pide Restaurant, is <a target="_blank" href="http://mrpide.ca/">Mr. Pide</a> in Greektown, Toronto.
+        Order the <strong> Lahmacun </strong>!
+        </p>
+</section>
+
+<section class="journalentry">
+    <h2> <span>08/22/2017</span>: Falafel </h2>
+    <p>
+        One reason to wake up every morning -- Falafels!
+    </p>
+    <p>
+        <img src="images/falafel.jpg" alt="Falafel!">
+    </p>
+    <p> If you like falafels, check out <a href="http://alibabas.ca/">Ali Baba's</a>.  They have two for the price of
+        one falafel sandwiches on Tuesdays!
+    </p>
+</section>
+
+<section class="journalentry">
+    <h2> <span>07/10/2017</span>: Spicy Pot </h2>
+        <p>  Ma la xiang guo is a dish from the Sichuan/Chongqing region of China.  You can
+        select a number of different items that are cooked together.
+        This dish uses a special numbing spice (ma) together with spicy chilli (la) cooked until
+        fragrant (xiang) in a big pot (guo). </p>
+        <p>
+        <img src="images/malaxiangguo.jpg" alt="Malaxiangguo">
+        </p>
+        <p> Unfortunately, I haven't found a good restaturant in Toronto that serves this.  You can
+        make it at home using with this <a target="_blank" href="http://www.noobcook.com/mala-xiang-guo/">recipe</a>. </p>
+</section>
+<div class="footer">
+    <p> (c) Author of the Eating Journal - Abdel Zhang </p>
+</div>
+</div>
+
+</body>
+</html>
